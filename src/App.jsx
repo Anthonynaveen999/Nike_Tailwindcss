@@ -1,4 +1,4 @@
-import {CustomerReviews,Hero,Subscribe,Footer,Services,PopularProducts,SpecialServices,SuperQuality} from './sections/index';
+import {CustomerReviews,Hero,Subscribe,Footer,Services,PopularProducts,SpecialOffers,SuperQuality} from './sections/index';
 import Nav from './components/Nav';
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
         <Services />
       </section>
       <section className="padding">
-        <SpecialServices />
+        <SpecialOffers />
       </section>
       <section className="bg-pale-blue padding">
         <CustomerReviews />

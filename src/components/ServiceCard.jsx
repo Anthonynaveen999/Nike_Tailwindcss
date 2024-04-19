@@ -1,5 +1,3 @@
-import React from 'react'
-import { truckFast } from '../assets/icons'
 const ServiceCard = ({ imgURL,label,subtext }) => {
   return (
     <div class='w-full shadow-3xl sm:w-[350px] rounded-[20px] px-10 py-16 sm:min-w-[350px] flex-1'>

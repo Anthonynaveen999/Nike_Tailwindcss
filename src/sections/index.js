@@ -4,7 +4,7 @@ import Subscribe from './Subscribe';
 import Footer from './Footer';
 import Services from './Services';
 import PopularProducts from './PopularProducts';
-import SpecialServices from './SpecialServices';
+import SpecialOffers from './SpecialOffers';
 import SuperQuality from './SuperQuality';
 
-export {CustomerReviews,Hero,Subscribe,Footer,Services,PopularProducts,SpecialServices,SuperQuality};
+export {CustomerReviews,Hero,Subscribe,Footer,Services,PopularProducts,SpecialOffers,SuperQuality};
