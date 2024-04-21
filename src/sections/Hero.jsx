@@ -11,31 +11,31 @@ const Hero = () => {
   return (
     <section
       id="home"
-      class='flex flex-col xl:flex-row p-2 min-h-screen justify-center w-full gap-10 max-container'
+      className='flex flex-col xl:flex-row p-2 min-h-screen justify-center w-full gap-10 max-container'
     >
-    <div class='relative flex-col flex xl:w-2/5 justify-center items-start w-full max-xl:padding-x pt-28'>
-      <p class='text-coral-red font-montserrat text-xl'>Our Summer Collections</p>
-      <h1 class='mt-10 font-palanquin text-8xl font-bold max-sm:text-[72px] max-sm:leading-[82px]'>
-        <span class='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>The New Arrival</span>
+    <div className='relative flex-col flex xl:w-2/5 justify-center items-start w-full max-xl:padding-x pt-28'>
+      <p className='text-coral-red font-montserrat text-xl'>Our Summer Collections</p>
+      <h1 className='mt-10 font-palanquin text-8xl font-bold max-sm:text-[72px] max-sm:leading-[82px]'>
+        <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>The New Arrival</span>
         <br />
-        <span class='text-coral-red mt-3 inline-block'>Nike</span> Shoes
+        <span className='text-coral-red mt-3 inline-block'>Nike</span> Shoes
       </h1>
-      <p class='text-slate-gray font-montserrat text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>Discover stylish Nike arrivals, quality comfort, and innovation for your active life.</p>
+      <p className='text-slate-gray font-montserrat text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>Discover stylish Nike arrivals, quality comfort, and innovation for your active life.</p>
       <Button label="Shop now" iconURL={arrowRight}/>
       <div>
-        <div class=' flex justify-start items-start flex-wrap gap-16 mt-20'>
+        <div className=' flex justify-start items-start flex-wrap gap-16 mt-20'>
         {
           statistics.map((stat) => (
             <div key={stat.label}>
-              <p class=' text-4xl font-palanquin font-bold'>{stat.value}</p>
-              <p class='font-montserrat leading-7 text-slate-gray'>{stat.label}</p>
+              <p className=' text-4xl font-palanquin font-bold'>{stat.value}</p>
+              <p className='font-montserrat leading-7 text-slate-gray'>{stat.label}</p>
             </div>
           ))
         }
         </div>
       </div>
     </div>
-    <div class='relative flex flex-1 justify-center items-center xl:min-h-screen max-xl:py-40 bg-white bg-hero bg-cover bg-center'>
+    <div className='relative flex flex-1 justify-center items-center xl:min-h-screen max-xl:py-40 bg-white bg-hero bg-cover bg-center'>
       <img 
         src={bigShoeImg}
         alt='shoe collection'
@@ -43,7 +43,7 @@ const Hero = () => {
         height={500}
         className=' object-contain relative z-10'
       />
-      <div class='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6' >
+      <div className='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6' >
         {shoes.map((shoe) => (
           <div key={shoe}>
             <ShoeCard 
